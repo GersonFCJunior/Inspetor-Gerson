@@ -1,1 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadoras Online</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* Altera para alinhar o conteúdo ao topo */
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
 
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .instructions-container {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+            width: 80%; /* Ajuste a largura conforme necessário */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .instructions-container h2 {
+            color: #333;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .instructions-container p {
+            color: #555;
+            line-height: 1.6; /* Melhora a legibilidade do texto */
+            margin-bottom: 10px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column; /* Altera a direção do flex container para coluna */
+            align-items: stretch; /* Faz os botões ocuparem a largura total do container */
+            gap: 15px; /* Adiciona um espaçamento entre os botões */
+            width: 80%; /* Alinha a largura dos botões com as instruções */
+            max-width: 500px; /* Define uma largura máxima para os botões */
+        }
+
+        .calculator-button {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            text-align: center; /* Centraliza o texto dentro do botão */
+        }
+
+        .calculator-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculadoras Online</h1>
+
+    <div class="instructions-container">
+        <h2>GERSON FERNANDES DAS CHAGAS JUNIOR</h2>
+        <p>Inspetor de Pintura Industrial, certificado e qualificado conforme critérios da norma ABNT NBR 15218, por meio da ABRACO (Associação Brasileira
+            de Corrosão) e certificado pela Icorr (Institute of Corrosion) intercambiado pela ABRACO.</p>
+        <p>Registros Técnicos:</p>
+        <p>Inspetor de Pintura Industrial Nível 1 (ABRACO): SNQC-CP 1264;</p>
+        <p>Protective Coating Inspector Level 2 (Icorr): Icorr C12390;</p>
+        <p>CREA-CE nº: 361746.</p>
+        <h3>Instruções</h3>
+        <p>Bem-vindo à minha página de pintura industrial! Aqui você encontrará diversas ferramentas para auxiliar o seu projeto.</p>
+        <p>Para utilizar uma calculadora, siga os passos abaixo:</p>
+        <ol>
+            <li>Clique no botão correspondente à calculadora que você deseja usar.</li>
+            <li>Você será redirecionado para a página específica daquela calculadora.</li>
+            <li>Na página da calculadora, preencha os campos solicitados com os valores necessários para o cálculo.</li>
+            <li>Siga as instruções específicas fornecidas em cada página para obter o resultado desejado.</li>
+        </ol>
+        <p>Espero que as ferramentas sejam úteis para seu projeto!</p>
+    </div>
+
+    <div class="button-container">
+        <a href="calculadora_volume.html" class="calculator-button">Calculadora de Volumes</a>
+        <a href="calculadora_epu.html" class="calculator-button">Calculadora de EPU</a>
+        <a href="calculadora_detinta.html" class="calculator-button">Calculadora Quantidade de Tinta</a>
+        <a href="calculadora_area.html" class="calculator-button">Calculadora de Área</a>
+        <a href="padrao_decores.html" class="calculator-button">Padrão de Cores Industrial</a>
+        <a href="esquemas_de_pintura.html" class="calculator-button">Esquemas de Pintura</a>
+        <a href="estoque_de_tintas.html" class="calculator-button">Estoque de Tintas</a>
+    </div>
+</body>
+</html>
